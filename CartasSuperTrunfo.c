@@ -12,7 +12,9 @@ int main() {
 
       printf("Bem vindo ao super trunfo ***Países***!!!!!\n");
       printf("Faça o cadastro da carta 1: \n");
-      
+     
+      //Leitura dos dados da primeira carta.
+
       printf("Estado (uma letra de A a H):\n");
       scanf("%s",&estado1);
       
@@ -34,17 +36,16 @@ int main() {
       printf("Número de pontos turisticos:\n");
       scanf("%d",&pontoturistico1);
       
-      printf("\n");
+      printf("\n"); // espaco entre uma sequência e outra.
       
 
-     
-
-     printf("Carta 1\n");
-     printf("Estado: %s\nCódigo da cidade:%s\nNome da cidade:%s\n", estado1, codigocidade1, nomecidade1);
-     printf("População:%d\nÁrea: %f km2\nPIB: %f\nNumero de pontos turísticos: %d\n ",populacao1, area1, pib1, pontoturistico1);
+     //Saída dos dados da primeira carta.
+      printf("Carta 1\n");
+      printf("Estado: %s\nCódigo da cidade:%s\nNome da cidade:%s\n", estado1, codigocidade1, nomecidade1);
+      printf("População:%d\nÁrea: %f km2\nPIB: %f\nNumero de pontos turísticos: %d\n ",populacao1, area1, pib1, pontoturistico1);
      
     
-     printf("\n");
+      printf("\n");
 
 
       printf("Faça o cadastro da carta 2: \n");
@@ -69,12 +70,15 @@ int main() {
       printf("Número de pontos turisticos:\n");
       scanf("%d",&pontoturistico2);
      
-      printf("\n");
+      printf("\n"); // espaco entre uma sequência e outra.
+      
+
+     //Saída dos dados da primeira carta.
      
 
-     printf("Carta 2\n");
-     printf("Estado: %s\nCódigo da cidade:%s\nNome da cidade:%s\n", estado2, codigocidade2, nomecidade2);
-     printf("População:%d\nÁrea: %f km2\nPIB: %f\nNumero de pontos turísticos: %d\n ",populacao2, area2, pib2, pontoturistico2);
+      printf("Carta 2\n");
+      printf("Estado: %s\nCódigo da cidade:%s\nNome da cidade:%s\n", estado2, codigocidade2, nomecidade2);
+      printf("População:%d\nÁrea: %f km2\nPIB: %f\nNumero de pontos turísticos: %d\n ",populacao2, area2, pib2, pontoturistico2);
      
 
      return 0;
