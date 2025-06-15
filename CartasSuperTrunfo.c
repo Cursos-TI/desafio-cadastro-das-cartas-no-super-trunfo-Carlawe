@@ -9,6 +9,9 @@ int main() {
      float area1, area2 ;
      float pib1, pib2 ;
      int pontoturistico1, pontoturistico2 ; 
+     float densidadepopulacional1, densidadepopulacional2;
+     float pibpercapta1, pibpercapta2;
+
 
       printf("Bem vindo ao super trunfo ***Países***!!!!!\n");
       printf("Faça o cadastro da carta 1: \n");
@@ -41,8 +44,8 @@ int main() {
 
      //Saída dos dados da primeira carta.
       printf("Carta 1\n");
-      printf("Estado: %s\nCódigo da cidade:%s\nNome da cidade:%s\n", estado1, codigocidade1, nomecidade1);
-      printf("População:%d\nÁrea: %f km2\nPIB: %f\nNumero de pontos turísticos: %d\n ",populacao1, area1, pib1, pontoturistico1);
+      printf("Estado: %s\nCódigo da cidade:%s\nNome da cidade:%s\nPopulação:%d\n", estado1, codigocidade1, nomecidade1, populacao1);
+      printf("Área: %f km2\nPIB: %f\nNumero de pontos turísticos: %d\nDensidade populacional:%.2f\nPib per capta:%.2f\n ", area1, pib1, pontoturistico1, (populacao1 / area1), (pib1 / populacao1));
      
     
       printf("\n");
@@ -77,8 +80,8 @@ int main() {
      
 
       printf("Carta 2\n");
-      printf("Estado: %s\nCódigo da cidade:%s\nNome da cidade:%s\n", estado2, codigocidade2, nomecidade2);
-      printf("População:%d\nÁrea: %f km2\nPIB: %f\nNumero de pontos turísticos: %d\n ",populacao2, area2, pib2, pontoturistico2);
+      printf("Estado: %s\nCódigo da cidade:%s\nNome da cidade:%s\nPopulação:%d\n", estado2, codigocidade2, nomecidade2, populacao2);
+      printf("Área: %f km2\nPIB: %f\nNumero de pontos turísticos: %d\nDensidadepopulacional:%.2f\nRenda per capta:%.2f\n ", area2, pib2, pontoturistico2, (populacao2 / area2), (pib2 / populacao2));
      
 
      return 0;
